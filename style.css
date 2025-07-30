@@ -1,0 +1,56 @@
+body {
+    color: #00ff00;
+}
+
+.sitetitle {
+    margin-top: 1%;
+    font-size: 500%;
+}
+
+.linkgroup {
+    text-align: center;
+    font-size: 3em;
+}
+
+.linkgroup a{
+    display: inline-block;
+    font-weight: bolder;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    border: solid #00ff00;
+}
+
+.linkgroup a:hover{
+    color: white;
+    text-decoration: none;
+    border: solid white;
+    color: #ff00ff
+}
+
+
+.imprint {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+/* Video Stuff */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+    margin-top: 15%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 4%;
+}
